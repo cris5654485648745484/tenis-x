@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="UTF-82">
+       <title>Practica 4>/title>
+       <link rel="stylesheet" href="css/menu.css">
+       </head>
+       <body>
+       <!-- Codigo del menu -->
+         <header> <!-- Encabezado,parte superior de un sitio web -->
+           <nav class="navegacion">
+                <ul class="menu"> <!--la etiqueta ul es un enlase de navegacion -->
+                   <li><a href="#"> Inicio </a></li><!--la etiqueta li item declara los elementos de la lista  -->
+ <!-- Aqui comienza la opcion y el bubmenu-->
+              <li><a href="#"> Nosotros </a>
+                 <ul class="aubm">
+                    <li><a href="https://prepa75ms.wixsite.com/epo75">Pagina</a></li&gt;
+                    <li><a href="#"> Direccion</a></li>
+                 </ul>
+              </li><!-- la etiqueta a sirve para poder crear un enlace  -->
+  <!-- Aqui termina el bubmenu-->
+               <li><a href="#" > Servicios </a>
+                  <ul class="submenu">
+                     <li><a href="https://developer.mozilla.org/es/doce/web/CSS/box-sizing"&gt; Servicio 1</a></li>
+                      <li><a href="#"> Servicio 2</a></li>
+                       <li><a href="#"> Servicio 3</a></li>
+                  </ul>
+                </li>
+                <li><a href="#"> Contacto </a></li>
+            </ul>
+        </nav>
+       </header>
+    </body>
+   
+<html>
+.submenu li a{
+    display: block; /*Espacio entre palabras*/
+    padding: 15px; /*Espacio entre palabras*/
+    color: #fff; /*Color de la letra*/
+    font-family: 'Open sans'; /*tipo de letra*/
+    text-decoration: none;
+}
+.menu li:hover .subm{ /*Ocultar el submenu*/
